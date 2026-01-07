@@ -1,60 +1,35 @@
-# laravote
-Online Voting Website with Laravel
 
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1100 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost you and your team's skills by digging into our comprehensive video library.
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
 The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-![01 Halaman Login](https://github.com/RifkiCS29/laravote/blob/master/public/img/login.png)
-![01 Halaman Home Summary](https://github.com/RifkiCS29/laravote/blob/master/public/img/home.png)
-![01 Halaman Manage Users](https://github.com/RifkiCS29/laravote/blob/master/public/img/manageUser.png)
-![01 Halaman Manage Candidates](https://github.com/RifkiCS29/laravote/blob/master/public/img/manageCandidates.png)
-![01 Halaman Choice](https://github.com/RifkiCS29/laravote/blob/master/public/img/choice.png)
+Halaman login 
+<img width="1524" height="531" alt="image" src="https://github.com/user-attachments/assets/9e3f10b4-64fa-4fe2-9546-fc6e1fdf0bfc" />
+
+Halaman kandidat
+<img width="1654" height="812" alt="image" src="https://github.com/user-attachments/assets/6b540604-4794-4160-b479-1793f49ee861" />
+
+halaman Data Pemilih
+<img width="1664" height="717" alt="image" src="https://github.com/user-attachments/assets/ac36707a-ce92-4013-8139-5f2e06c86f5a" />
+
+Halaman voting 
+<img width="1715" height="958" alt="Screenshot 2026-01-07 211800" src="https://github.com/user-attachments/assets/4b6ec36c-f509-4280-9f7e-8fd6af034bc1" />
+
+Halaman Sudah voting
+<img width="1619" height="408" alt="Screenshot 2026-01-07 211820" src="https://github.com/user-attachments/assets/5d57aea1-e1fd-443e-b213-78aa5f058acf" />
+
+Hasil voting
+<img width="1510" height="788" alt="image" src="https://github.com/user-attachments/assets/f861e0f9-06fd-4e38-bb7d-0cc6f2481a9a" />
+
+
 
 ## How To Install this Project
 
 - Persiapan
 1. Memiliki CLI/Command Line Interface berupa Command Prompt (CMD) atau Power Shell atau Git Bash (selanjutnya kita sebut terminal).
-2. Memiliki Web Server (misal XAMPP) dengan PHP minimal versi 7.1.3.
-3. Composer telah ter-install, cek dengan perintah composer -V melalui terminal.
-4. Memiliki koneksi internet (untuk proses installasi).
+2. Composer telah ter-install, cek dengan perintah composer -V melalui terminal.
+3. Memiliki koneksi internet (untuk proses installasi).
 
 Langkah-Langkah
 1. Download Source Code dari repo Github laravote dalam bentuk Zip.
@@ -81,11 +56,10 @@ Langkah-Langkah
     GOOGLE_CLIENT_ID dan GOOGLE_CLIENT_SECRET bisa didapatkan dengan mengikuti tutorial berikut https://daengweb.id/google-authentication-with-laravel-58
 11. Jika hanya ingin membuat tabel, jalankan perintah <b>php artisan migrate</b>. Cek di phpmyadmin, seharusnya tabel sudah muncul.
 12. Jalankan perintah <b>php artisan db:seed</b> untuk mengisi tabel users yang digunakan untuk proses login
-    <br>EMAIL = rifki@admin.com
+    <br>EMAIL = jakaria@gmail.com
     <br>PASSWORD = admin
 13. Setelah selesai, Jalankan perintah <b>php artisan serve</b> maka dapat diakses dengan http://localhost:8000/
 
-SEKIAN PENJELASAN DARI SAYA, TERIMAKASIH. Created by <b>RIFKI</b>
 
 
 
